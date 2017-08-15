@@ -16,6 +16,7 @@ jintArray c_hello(JNIEnv *env, jobject cls, jintArray arr)
 	jint *carr;
 	jint *oarr;
 	jintArray rarr;
+
 	
 	jint i, n = 0;
 	carr = (*env)->GetIntArrayElements(env, arr, NULL);
